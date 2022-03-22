@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* Global Tokens */
+
+  --white: #fbfbfb;
+
+  --gray-800: #181818;
+  --gray-400: #363434;
+
+  --gray-600: rgba(69, 69, 69, 1);
+  --bluegray: #6b7788;
+
+  --green-600: #99bea1;
+  --green-100: #b7d1bd;
+
+  --red-600: #e17f7b;
+  --red-200: #eaa6a3;
+
+  /* Alias Tokens - se enkelt element*/
+
+  --color-bg: ;
+  --color-text-base: ;
+  --color-text-muted: ;
+
+  --color-bg-blur: ;
+
+  --color-ghost-base: ;
+
+  --color-button-bg: ;
+  --color-button-text: ;
+  --color-button-border: ;
+
+  /* Text layout */
+}
+
+color {
+}
