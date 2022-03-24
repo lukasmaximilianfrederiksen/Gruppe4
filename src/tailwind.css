@@ -13,3 +13,9 @@ body {
 
 main {
 }
+
+.ugeSelected {
+  font-weight: 800;
+  background: black;
+  color: brown;
+}

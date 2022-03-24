@@ -23,25 +23,25 @@
         <nav
           class="hidden items-center justify-center space-x-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
         >
-          <a class="text-grey-900" href="konto.html">Forældre</a>
-          <a class="text-gray-900" href="betaling.html">Leverandører</a>
-          <a class="text-gray-900" href="">Skoler</a>
+          <a class="text-gray-900" href="konto.html">Mine børn</a>
+          <a class="text-gray-900" href="betaling.html">Min Saldo</a>
+          <a class="text-gray-900" href="">Min Konto</a>
           <a class="text-gray-900" href="">Hjælp</a>
           <a class="text-gray-900" href="">Kontakt</a>
         </nav>
 
         <div class="flex items-center space-x-4 lg:flex">
           <a
-            class="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-600"
+            class="rounded-lg bg-gray-100 px-5 py-2 text-sm font-poppins text-gray-600 w-36 text-center"
             href=""
           >
             Log in
           </a>
           <a
-            class="bg-primary-green rounded-lg px-5 py-2 text-sm font-medium text-white"
+            class="bg-primary-green rounded-lg px-5 py-2 text-sm font-poppins text-white w-36 text-center"
             href=""
           >
-            Sign up
+           Opret bruger
           </a>
         </div>
       </div>
@@ -63,7 +63,7 @@
   >
     <div class="sm:text-center lg:text-left">
       <h1
-        class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"
+        class="text-fluid-h1 font-extrabold tracking-tight text-gray-900 font-poppins leading-none"
       >
         <span class="block xl:inline"
           >VELKOMMEN, <br />
@@ -88,10 +88,10 @@
         </div>
         <div class="mt-3 sm:mt-0 sm:ml-3">
           <a
-            href="#"
+            href="#madplan"
             class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
           >
-            BESTIL MADPLAN
+            SE MADPLAN
           </a>
         </div>
       </div>
@@ -107,21 +107,34 @@
 />
 </div> -->
 </div>
-<div class="mt-32">
-<h2 class="ml-20 flex  text-7xl">FEBRUAR</h2>
-<div class="ml-20 mt-2 flex gap-10"> 
-<p class="font-bold focus:font-bold">Uge 1</p>
-<p class="active:font-bold">Uge 2</p>
-<p>Uge 3</p>
-<p>Uge 4</p>
-</div>
-</div>
 
-<section class=" flex flex-row  w-auto mt-11">
 
-<div class="relative w-fit mx-3">
+<!-- OverSkrift til madplanen -->
+
+<div id="madplan" class="">
+<section class="mt-32 flex flex-col justify-center items-center ">
+<h2 class=" flex  text-7xl">FEBRUAR</h2>
+<div class=" mt-6 flex gap-20"> 
+<p class=" uge font-bold">Uge 1</p>
+<p class=" uge ">Uge 2</p>
+<p class="uge ">Uge 3</p>
+<p class="uge">Uge 4</p>
+</div>
+</section>
+
+
+<section class="flex flex-col md:flex-row justify-center my-16">
+
+<div class="flex items-center justify-center content-center ">
+
+
+
+<section class=" flex flex-col  mt-11 justify-center items-center ">
+  <p>Vælg barn/børn du vil bestille for</p>
+  <div class="flex mx-14 my-5">
+<div class="relative w-fit mx-3 ">
   <img src="billeder/unsplash_cuStP_i-xPg.png" alt="" class="w-auto h-10 ">
-  <div class="absolute -top-3 -right-3">
+  <div class="absolute -top-3 -right-3 cursor-pointer">
     <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="9" cy="13" r="9" fill="#E17F7B"/>
 <path d="M6 12.64V14.24H11.78V12.64H6Z" fill="#FBFBFB"/>
@@ -131,7 +144,7 @@
 
 <div class="relative w-fit mx-3">
   <img src="billeder/unsplash_cuStP_i-xPg.png" alt="" class="w-auto h-10 ">
-  <div class="absolute -top-3 -right-3">
+  <div class="absolute -top-3 -right-3 cursor-pointer">
     <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="9" cy="13" r="9" fill="#E17F7B"/>
 <path d="M6 12.64V14.24H11.78V12.64H6Z" fill="#FBFBFB"/>
@@ -140,27 +153,39 @@
 
 </div>
 <div>
-<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-3">
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-3 cursor-pointer">
 <path d="M21 38.5C30.665 38.5 38.5 30.665 38.5 21C38.5 11.335 30.665 3.5 21 3.5C11.335 3.5 3.5 11.335 3.5 21C3.5 30.665 11.335 38.5 21 38.5Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21 14V28" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M14 21H28" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </div>
+</div>
+</div>
 
 
 
+
+<section class="flex flex-col justify-center items-center mx-14">
+<div class="my-5">
+  <p>Bestil for hele måneden her</p>
+</div>
+
+<button class="bg-primary-green px-9 py-2 text-fluid-paragraph-base text-bg-white rounded-md">Bestil madplan</button>
+</div>
+</section>
 
 </section>
+</div>
 
 <!-- Mandag  -->
 <div class="">
-<div class="w-full px-6 py-8">
+<div class="mr-auto ml-auto w-full px-6 py-8">
 <div
-  class=" max-w-md overflow-hidden rounded-xl bg-white md:max-w-2xl"
+  class="mx-auto max-w-md overflow-hidden rounded-xl bg-white md:max-w-2xl"
 >
   <div class="md:flex">
     <div class="flex md:flex-shrink-0">
-      <h2 class="ml-9 mr-10 mt-20 text-center text-4xl">
+      <h2 class="ml-10 mr-10 mt-20 text-center text-4xl">
         MANDAG
         <span class="text-sm">
           <br />
@@ -409,7 +434,7 @@
   <div class="md:flex">
     <div class="flex md:flex-shrink-0">
         <h2 class="ml-11 mr-11 mt-20 text-center text-4xl">
-            FREDAG < span class="text-sm"> <br />11. Februar</span>
+            FREDAG <span class="text-sm"> <br />11. Februar</span>
           </h2>
       <svg
         width="2"
@@ -460,9 +485,64 @@
 </div>
 </div>
 
+  <footer class="bg-gray-50">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid gap-8">
+          <div
+            class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4"
+          >
+            <div>
+              <p class="font-medium">Company</p>
+
+              <nav class="mt-4 flex flex-col space-y-2 text-sm text-gray-500">
+                <a class="hover:opacity-75" href=""> About </a>
+                <a class="hover:opacity-75" href=""> Meet the Team </a>
+                <a class="hover:opacity-75" href=""> History </a>
+                <a class="hover:opacity-75" href=""> Careers </a>
+              </nav>
+            </div>
+
+            <div>
+              <p class="font-medium">Services</p>
+
+              <nav class="mt-4 flex flex-col space-y-2 text-sm text-gray-500">
+                <a class="hover:opacity-75" href=""> 1on1 Coaching </a>
+                <a class="hover:opacity-75" href=""> Company Review </a>
+                <a class="hover:opacity-75" href=""> Accounts Review </a>
+                <a class="hover:opacity-75" href=""> HR Consulting </a>
+                <a class="hover:opacity-75" href=""> SEO Optimisation </a>
+              </nav>
+            </div>
+
+            <div>
+              <p class="font-medium">Helpful Links</p>
+
+              <nav class="mt-4 flex flex-col space-y-2 text-sm text-gray-500">
+                <a class="hover:opacity-75" href=""> Contact </a>
+                <a class="hover:opacity-75" href=""> FAQs </a>
+                <a class="hover:opacity-75" href=""> Live Chat </a>
+              </nav>
+            </div>
+
+            <div>
+              <p class="font-medium">Legal</p>
+
+              <nav class="mt-4 flex flex-col space-y-2 text-sm text-gray-500">
+                <a class="hover:opacity-75" href=""> Privacy Policy </a>
+                <a class="hover:opacity-75" href=""> Terms & Conditions </a>
+                <a class="hover:opacity-75" href=""> Returns Policy </a>
+                <a class="hover:opacity-75" href=""> Accessibility </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-8 text-xs text-gray-500">&copy; 2022 Skolemad.dk</p>
+      </div>
+    </footer>
 
 
 
-
+<script type="module" src="index.js"></script>
   </body>
 </html>
