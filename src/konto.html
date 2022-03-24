@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="tailwind.css" />
-    <title>Document</title>
+    <title>Kontoside</title>
   </head>
   <body>
     <!-- Header  -->
@@ -44,30 +44,31 @@
         <nav
           class="flex items-center justify-center overflow-x-auto p-4 text-sm font-medium"
         >
-          <a class="flex-shrink-0 pl-4 text-gray-900" href="">About</a>
-          <a class="flex-shrink-0 pl-4 text-gray-900" href="">Blog</a>
-          <a class="flex-shrink-0 pl-4 text-gray-900" href="">Projects</a>
-          <a class="flex-shrink-0 pl-4 text-gray-900" href="">Contact</a>
+          <a class="flex-shrink-0 pl-4 text-gray-900" href="">MINE BØRN</a>
+          <a class="flex-shrink-0 pl-4 text-gray-900" href="">MIN SALDO</a>
+          <a class="flex-shrink-0 pl-4 text-gray-900" href="">IN KONTO</a>
+          <a class="flex-shrink-0 pl-4 text-gray-900" href="">HJÆLP</a>
+          <a class="flex-shrink-0 pl-4 text-gray-900" href="">KONTAKT</a>
         </nav>
       </div>
     </header>
 
     <!-- H1 -->
 
-    <h1 class="text-fluid-h1 ml-20">MIN KONTO</h1>
+    <h1 class="text-fluid-h1 ml-20 font-semibold">MIN KONTO</h1>
     <p class="ml-20">Her kan du ændre generelle indstillinger for din konto</p>
 
-    <div class="ml-10 flex p-10">
-      <div class="font-popins text-fluid-paragraph-base mr-10">
-        <p class="mb-2 font-bold">Konto</p>
-        <p class="text-paragraph-color-primary mb-2">Kodeord</p>
-        <p class="text-paragraph-color-primary mb-2">Notifikationer</p>
-        <p class="text-paragraph-color-primary mb-2">Kontooversigt</p>
-        <p class="text-paragraph-color-primary mb-2">Ordrehistorik</p>
-        <p class="text-paragraph-color-primary mb-2">Hjælp</p>
+    <div class="ml-10 flex px-10 pt-10">
+      <div class="font-poppins text-fluid-paragraph-base mr-10 border-r-2 pr-6 pt-10">
+        <p class="mb-2 font-bold cursor-pointer">Konto</p>
+        <p class="text-paragraph-color-primary mb-2 cursor-pointer hover:">Kodeord</p>
+        <p class="text-paragraph-color-primary mb-2 cursor-pointer">Notifikationer</p>
+        <p class="text-paragraph-color-primary mb-2 cursor-pointer">Kontooversigt</p>
+        <p class="text-paragraph-color-primary mb-2 cursor-pointer">Ordrehistorik</p>
+        <p class="text-paragraph-color-primary mb-2 cursor-pointer">Hjælp</p>
       </div>
 
-      <svg
+      <!-- <svg
         class=""
         width="2"
         height="410"
@@ -83,21 +84,21 @@
           stroke="black"
           stroke-width="1"
         />
-      </svg>
+      </svg> -->
 
       <!-- Setting form -->
 
-      <form class="w-full max-w-lg p-10">
+      <form class="w-full max-w-3xl p-10">
         <div class="-mx-3 mb-6 flex flex-wrap">
           <div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
             <label
-              class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+              class="mb-2 block text-fluid-paragraph-small font-bold uppercase tracking-wide text-gray-700"
               for="grid-first-name"
             >
               Fornavn
             </label>
             <input
-              class="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:bg-white focus:outline-none"
+              class="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-paragraph-color-muted focus:bg-white focus:outline-none"
               id="grid-first-name"
               type="text"
               placeholder="Stefan"
@@ -105,13 +106,13 @@
           </div>
           <div class="w-full px-3 md:w-1/2">
             <label
-              class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+              class="mb-2 block text-fluid-paragraph-small font-bold uppercase tracking-wide text-gray-700"
               for="grid-last-name"
             >
               Efternavn
             </label>
             <input
-              class="block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
+              class="block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-paragraph-color-muted focus:border-gray-500 focus:bg-white focus:outline-none"
               id="grid-last-name"
               type="text"
               placeholder="Grage"
@@ -120,7 +121,7 @@
 
           <div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
             <label
-              class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+              class="mb-2 block text-fluid-paragraph-small font-bold uppercase tracking-wide text-gray-700"
               for="grid-first-name"
             >
               Nuværende Email
@@ -134,13 +135,13 @@
           </div>
           <div class="w-full px-3 md:w-1/2">
             <label
-              class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+              class="mb-2 block text-fluid-paragraph-small font-bold uppercase tracking-wide text-gray-700"
               for="grid-last-name"
             >
               Skift email
             </label>
             <input
-              class="block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
+              class="block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-paragraph-color-muted focus:border-gray-500 focus:bg-white focus:outline-none"
               id="grid-last-name"
               type="text"
               placeholder="Skift her"
@@ -149,13 +150,13 @@
 
           <div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
             <label
-              class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+              class="mb-2 block text-fluid-paragraph-small font-bold uppercase tracking-wide text-gray-700"
               for="grid-first-name"
             >
               Tlf. Nummer
             </label>
             <input
-              class="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:bg-white focus:outline-none"
+              class="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-paragraph-color-muted focus:bg-white focus:outline-none"
               id="grid-first-name"
               type="text"
               placeholder="stefan@grage.dk"
@@ -163,42 +164,52 @@
           </div>
           <div class="w-full px-3 md:w-1/2">
             <label
-              class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
+              class="mb-2 block text-fluid-paragraph-small font-bold uppercase tracking-wide text-gray-700"
               for="grid-last-name"
             >
               Andet nummer
             </label>
             <input
-              class="block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
+              class="block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-paragraph-color-muted focus:border-gray-500 focus:bg-white focus:outline-none"
               id="grid-last-name"
               type="text"
               placeholder="Andet"
             />
           </div>
-        </div>
-      </form>
 
-      <form class="w-full max-w-sm p-10">
-        <div
-          class="text-paragraph-color-primary flex items-center border-b py-2"
-        >
-          <p
-            class="mr-3 w-full appearance-none border-none bg-transparent py-1 px-2 leading-tight text-gray-700 focus:outline-none"
-          >
-            Slet bruger <br />
-            <span class="text-fluid-paragraph-small"
-              >Ved at slette din bruger, alt data vil blive fjernet</span
+          <div class="flex flex-col flex-1"> 
+          <form class=" w-full max-w-2xl p-10">
+            <div
+              class="text-paragraph-color-primary lg:min-w-2xl flex flex-1 items-center border-b py-2"
             >
-          </p>
+              <p
+                class="mr-3 w-full font-semibold appearance-none border-none bg-transparent py-1 px-2 leading-tight text-gray-700 focus:outline-none"
+              >
+                Slet bruger <br />
+                <span class="text-fluid-paragraph-small font-normal"
+                  >Ved at slette din bruger, alt data vil blive fjernet</span
+                >
+              </p>
 
-          <button
-            class="text-ghost hover:text-heading-color-primary flex-shrink-0 rounded border-4 border-transparent py-1 px-2 text-sm"
-            type="ghost"
-          >
-            Slet bruger
-          </button>
+              <button
+                class="text-ghost hover:text-heading-color-primary flex-shrink-0 rounded border-4 border-transparent py-1 px-2 text-fluid-paragraph-base"
+                type="ghost"
+              >
+                Slet bruger
+              </button>
+            </div>
+          </form>
+          <div class="ml-10 flex justify-end">
+            <button
+              class="just bg-primary-green hover:bg-primary-green-light mt-6 cursor-pointer rounded-lg px-5 py-2 text-fluid-paragraph-base font-medium text-gray-100"
+              href=""
+            >
+              Godkend ændringer
+            </button>
+          </div>
         </div>
       </form>
+      </div>
     </div>
   </body>
 </html>
