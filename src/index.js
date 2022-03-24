@@ -1,9 +1,11 @@
-let week = document.querySelector(".uge");
+console.log("juhueeeeu");
 
-week.addEventListener("click", select);
+let week = document.querySelector(".ugeSelect");
 
-function select() {
-  week.classList.add(".ugeSelected");
+week.addEventListener("click", addUgeSelected);
+
+function addUgeSelected() {
+  week.classList.add("ugeSelected");
 
   //   if (week.contains("ugeSelected")) {
   //     week.classList.remove("ugeSelected");

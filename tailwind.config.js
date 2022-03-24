@@ -11,6 +11,7 @@ module.exports = {
         "secondary-red-light": "#eaa6a3",
         "heading-color-primary": "#181818",
         "paragraph-color-primary": "#363434",
+        "paragraph-color-muted": "#7C7C7C",
         "overlay-popup-grey": "rgba(69,69,69,0.5",
       },
 
