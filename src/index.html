@@ -28,7 +28,7 @@
     <!-- Header -->
 
     <header class="shadow-sm">
-      <div class="mx-auto flex h-16 items-center justify-between px-4">
+      <div class="mx-auto flex h-20 items-center justify-between px-4">
         <div class="flex items-center justify-items-center space-x-4">
           <svg
             width="42"
@@ -57,27 +57,27 @@
           class="hidden items-center justify-center space-x-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
         >
           <a
-            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal"
+            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal hover:font-bold "
             href="konto.html"
             >Forældre</a
           >
           <a
-            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal"
+            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal hover:font-bold "
             href="betaling.html"
             >Leverandører</a
           >
           <a
-            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal"
+            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal hover:font-bold "
             href="bruger.html"
             >Skoler</a
           >
           <a
-            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal"
+            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal hover:font-bold "
             href="vælgbetaling.html"
             >Hjælp</a
           >
           <a
-            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal"
+            class="text-paragraph-color-primary text-fluid-paragraph-base font-normal hover:font-bold " 
             href=""
             >Kontakt</a
           >
@@ -85,13 +85,13 @@
 
         <div class="flex items-center space-x-4 lg:flex">
           <a
-            class="bg-primary-green text-bg-white text-fluid-paragraph-base h-fit w-36 rounded-md px-5 py-2 text-center font-medium"
+            class="bg-primary-green text-bg-white text-fluid-paragraph-base h-fit w-36 rounded-md px-5 py-2 text-center font-medium hover:bg-primary-green-light"
             href="bruger.html"
           >
             Log in
           </a>
           <a
-            class="bg-bg-white text-primary-green text-fluid-paragraph-base border-primary-green h-fit rounded-lg border-2 px-5 py-2 font-medium"
+            class="bg-bg-white hover:bg-primary-green text-primary-green hover:text-bg-white text-fluid-paragraph-base border-primary-green hover:border-bg-white  h-fit rounded-lg border-2 px-5 py-2 font-medium"
             href=""
           >
             Opret bruger
@@ -140,7 +140,7 @@
           </h1>
 
           <p
-            class="text-paragraph-color-primary text-fluid-paragraph-base mt-4 font-serif"
+            class="text-paragraph-color-primary text-fluid-paragraph-base mt-10 mb-20 text-left font-serif"
           >
             Hos Skolemad kan du bestille sundt og god mad til dine børn. Så skal
             du ikke længere bekymre dig om at lave madpakke hver dag.
@@ -149,7 +149,7 @@
 
         <form
           action=""
-          class="font-poppins mx-auto mt-8 mb-0 max-w-md space-y-4"
+        class="font-poppins mx-auto mt-8 mb-0  space-y-4 sm:px-32"
         >
           <div>
             <label for="email" class="sr-only">Email</label>
@@ -214,8 +214,8 @@
             </div>
           </div>
 
-          <div class="flex items-center justify-between">
-            <p class="text-fluid-paragraph-small text-paragraph-color-muted">
+          <div class="flex items-center justify-end">
+            <p class="text-fluid-paragraph-small text-paragraph-color-muted px-5">
               Ikke nogen bruger?
               <a class="text-ghost text-fluid-paragraph-small underline" href=""
                 >Opret bruger</a
@@ -224,7 +224,7 @@
 
             <button
               type="submit"
-              class="bg-primary-green text-bg-white text-fluid-paragraph-base w-36 rounded-md px-5 py-2 font-medium"
+              class="bg-primary-green text-bg-white text-fluid-paragraph-base h-fit w-36 rounded-md px-5 py-2 text-center font-medium hover:bg-primary-green-light"
               href=""
             >
               Log ind
@@ -234,11 +234,9 @@
       </div>
 
       <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
-        <img
-          class="absolute inset-0 h-full w-full object-cover"
-          src="https://www.hyperui.dev/photos/team-1.jpeg"
-          alt=""
-        />
+        <video autoplay loop muted  class="absolute inset-0 h-screen w-full object-cover myVideo">
+        <source src="billeder/film2.mp4" type="video/mp4" />
+      
       </div>
     </section>
 

@@ -8,12 +8,28 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="shadow-sm">
-      <div
-        class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4"
-      >
+ <header class="shadow-sm">
+      <div class="mx-auto flex h-20 items-center justify-between px-4">
         <div class="flex items-center justify-items-center space-x-4">
-          <span class=""> Skolemad</span>
+          <svg
+            width="42"
+            height="42"
+            viewBox="0 0 49 49"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="48.8899" height="48.8899" rx="9" fill="#99BEA1" />
+            <path
+              d="M20.6491 35.3461C20.4281 38.4292 20.151 44.9258 19.7105 49H28.0791C27.5861 44.2652 27.4026 38.0255 27.5862 35.3461C33.2424 34.0891 35.2552 27.2682 34.7458 21.4963C33.8653 11.5192 30.4939 6.97916 28.9199 5.72585L29.1839 20.1968C29.2185 22.0936 28.101 24.9567 26.5497 23.8647C25.916 23.4187 25.8942 22.7308 25.8164 21.9598L24.1914 5.87169C24.1705 5.66382 23.9955 5.50562 23.7865 5.50562C23.6236 5.50562 23.4904 5.63186 23.4855 5.79473C23.3203 11.2661 22.5757 21.3928 21.9699 23.1236C21.0235 25.8275 18.2277 21.6133 18.199 18.7487C18.1402 12.888 18.3912 6.60007 18.3185 5.72585C17.6206 5.72585 13.5439 10.9082 12.8683 21.2181C12.4712 27.2783 14.6585 34.348 20.6491 35.3461Z"
+              fill="white"
+            />
+          </svg>
+          <a
+            href="index.html"
+            class="font-poppins text-paragraph-color-primary text-fluid-paragraph-base cursor-pointer font-medium"
+          >
+            Skolemad.dk</a
+          >
 
           <form class="mb-0 hidden lg:flex"></form>
         </div>
@@ -31,8 +47,14 @@
 
         <div class="flex items-center space-x-4 lg:flex">
           <a
-            class="border-primary-green rounded-lg px-5 py-2 text-sm font-medium text-gray-600"
-            href=""
+            class="bg-primary-green text-bg-white text-fluid-paragraph-base h-fit  rounded-md px-5 py-2 text-center font-medium hover:bg-primary-green-light"
+            href="betaling.html"
+          >
+            Min bestilling
+          </a>
+          <a
+            class="bg-bg-white hover:bg-primary-green-light text-primary-green hover:text-bg-white text-fluid-paragraph-base border-primary-green hover:border-bg-white  h-fit rounded-lg border-2 px-5 py-2 font-medium"
+            href="index.html"
           >
             Log ud
           </a>
@@ -43,10 +65,31 @@
         <nav
           class="flex items-center justify-center overflow-x-auto p-4 text-sm font-medium"
         >
-          <a class="flex-shrink-0 pl-4 text-gray-900" href="">About</a>
-          <a class="flex-shrink-0 pl-4 text-gray-900" href="">Blog</a>
-          <a class="flex-shrink-0 pl-4 text-gray-900" href="">Projects</a>
-          <a class="flex-shrink-0 pl-4 text-gray-900" href="">Contact</a>
+          <a
+            class="text-paragraph-color-primary text-fluid-paragraph-base flex-shrink-0 pl-4 font-normal"
+            href="børn.html"
+            >Mine børn</a
+          >
+          <a
+            class="text-paragraph-color-primary text-fluid-paragraph-base flex-shrink-0 pl-4 font-normal"
+            href="betaling.html"
+            >Min saldo</a
+          >
+          <a
+            class="text-paragraph-color-primary text-fluid-paragraph-base flex-shrink-0 pl-4 font-normal"
+            href="bruger.html"
+            >Min konto</a
+          >
+          <a
+            class="text-paragraph-color-primary text-fluid-paragraph-base flex-shrink-0 pl-4 font-normal"
+            href=""
+            >Hjælp</a
+          >
+          <a
+            class="text-paragraph-color-primary text-fluid-paragraph-base flex-shrink-0 pl-4 font-normal"
+            href=""
+            >Kontakt</a
+          >
         </nav>
       </div>
     </header>
@@ -54,23 +97,23 @@
 
     <h1 class="text-fluid-h1 ml-20 mt-5 font-bold">MINE BØRN</h1>
     <p
-      class="text-fluid-paragraph-large text-paragraph-color-muted ml-20 font-serif"
+      class="text-fluid-paragraph-large text-paragraph-color-muted ml-20 font-serif max-w-md leading-tight"
     >
-      Her kan du ændre generelle indstillinger for din konto.
+      Her kan du tilføje eller fjerne børn, som du gerne vil have tilknyttet madplanen.
     </p>
 
     <!-- cards clara hey -->
 
 
 
-    <div class="flex flex-col md:flex-row content-center py-20 justify-center gap-5">
+    <div class="flex flex-col md:flex-row content-center py-20 justify-center gap-12">
         <div
           class="block h-[26rem] w-72  overflow-hidden rounded-2xl border border-gray-100 shadow-sm "
           href=""
         >
           <img
-            class="h-42 w-full object-cover"
-            src="https://www.hyperui.dev/photos/team-1.jpeg"
+            class="h-[12rem] w-full object-cover"
+            src="https://images.unsplash.com/photo-1591852651348-20f2255cb64b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2Nob29sJTIwY2hpbGR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
             alt=""
           />
   
@@ -83,12 +126,12 @@
               <span class="text-bg-white ml-1.5 font-medium"> Aktiv </span>
             </strong>
             <div class="flex justify-between">
-              <h5 class="pt-2 text-xl font-bold">Signe</h5>
+              <h5 class="pt-2 text-xl font-bold">Dannie</h5>
             </div>
-            <p class="mt-2 text-sm text-gray-500">Holberg skolen, 5c</p>
+            <p class="mt-2 text-sm text-gray-500">Holberg skolen, 8c</p>
             <div class="flex flex-col">
               <button
-                class="just mt-6 cursor-not-allowed rounded-lg bg-gray-200 px-5 py-2 text-xs font-medium text-gray-100"
+                class="just mt-6 cursor-not-allowed rounded-lg bg-gray-200 px-5 py-2 text-xs font-medium text-bg-white"
                 href=""
               >
                 Tilmeld madplan
@@ -109,8 +152,8 @@
           href=""
         >
           <img
-            class="h-42 w-full object-cover"
-            src="https://www.hyperui.dev/photos/team-1.jpeg"
+            class="h-[12rem] w-full object-cover"
+            src="https://images.unsplash.com/photo-1497881807663-38b9a95b7192?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNjaG9vbCUyMGNoaWxkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt=""
           />
   
@@ -128,7 +171,7 @@
             <p class="mt-2 text-sm text-gray-500">Holberg skolen, 5c</p>
             <div class="flex flex-col">
               <button
-                class="just bg-primary-green hover:bg-primary-green-light mt-6 cursor-pointer rounded-lg px-5 py-2 text-xs font-medium text-gray-100"
+                class="just bg-primary-green hover:bg-primary-green-light mt-6 cursor-pointer rounded-lg px-5 py-2 text-xs font-medium text-bg-white"
                 href=""
               >
                 Tilmeld madplan
@@ -144,7 +187,7 @@
           </div>
         </div>
   
-     
+     <div class="flex justify-center items-center">
           <div href="#"
             class="mb-1 flex h-[12rem] flex-col items-center justify-center  pt-5 pb-5 cursor-pointer "
           >
@@ -154,11 +197,11 @@
               viewBox="0 0 62 62"
               fill="none" 
               xmlns="http://www.w3.org/2000/svg"
-              class="group hover:fill-[#AAAAAA]"
+              class="group hover:fill-[#98d497]"
             >
               <path
                 d="M31.0003 56.8333C45.2677 56.8333 56.8337 45.2674 56.8337 31C56.8337 16.7326 45.2677 5.16666 31.0003 5.16666C16.733 5.16666 5.16699 16.7326 5.16699 31C5.16699 45.2674 16.733 56.8333 31.0003 56.8333Z"
-                stroke="#AAAAAA"
+                stroke="#99BEA1"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -166,7 +209,7 @@
               />
               <path
                 d="M31 20.6667V41.3333"
-                stroke="#AAAAAA"
+                stroke="#99BEA1"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -175,7 +218,7 @@
               />
               <path
                 d="M20.667 31H41.3337"
-                stroke="#AAAAAA"
+                stroke="#99BEA1"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -186,7 +229,8 @@
   
           
             <div class="flex justify-center">
-              <h5 class="pt-1 text-xl font-bold">Tilføj barn</h5>
+              <h5 class="pt-1 text-xl font-bold text-paragraph-color-primary font-poppins">Tilføj barn</h5>
+            </div>
             </div>
   
     </div>
